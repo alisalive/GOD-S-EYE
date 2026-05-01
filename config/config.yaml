@@ -1,0 +1,29 @@
+scan:
+  timeout: 2.0
+  max_parallel_ports: 50
+  port_list: "common"
+
+ai:
+  model: "claude-sonnet-4-6"
+  max_tokens: 2000
+  enabled: true
+
+output:
+  screenshots: true
+  json: true
+  html: true
+  open_browser: false
+
+stealth:
+  min_delay: 1.0
+  max_delay: 3.0
+  rotate_ua: true
+
+paths:
+  # Set this to the absolute path of your GOD'S EYE installation.
+  # Windows example:  "C:\\Users\\YourName\\Documents\\GODs_EYE"
+  # Linux  example:   "/opt/GODs_EYE"
+  # Override via env: set GODS_EYE_PATH=<path>
+  gods_eye: ""
+  wordlists: "./config/wordlists"
+  reports: "./reports"
