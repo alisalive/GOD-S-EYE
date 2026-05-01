@@ -4,7 +4,7 @@ All notable changes to GOD'S EYE are documented here.
 
 ---
 
-## [1.0.0] — 2026-04-24
+## [2.0.0] — 2026-04-24
 
 ### Added
 - GOD'S EYE scanner integration (35+ tech fingerprints, WAF detection, vuln checks, CVE)
