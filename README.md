@@ -24,8 +24,8 @@ GOD'S EYE is a fast, accurate web security scanner built for penetration testers
 Think of it as **WhatWeb + Nikto + a security header analyzer**, combined into one tool with a clean output and zero noise.
 
 ```bash
-godseye millisec.edu.az
-godseye tesla.com --mode redteam
+godseye target.com
+godseye target.com --mode redteam
 godseye target.com --ai --api-key sk-ant-...
 ```
 
