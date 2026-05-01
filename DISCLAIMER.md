@@ -29,4 +29,4 @@ for remediation before public disclosure.
 
 ---
 
-*GOD'S EYE v1.0.0 — by alisalive*
+*GOD'S EYE v2.0.0 — by alisalive*
