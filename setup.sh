@@ -4,7 +4,7 @@
 set -e
 
 echo "============================================"
-echo " GOD'S EYE v1.0.0 - Setup"
+echo " GOD'S EYE v2.0.0 - Setup"
 echo " For authorized security testing only"
 echo "============================================"
 echo
@@ -74,12 +74,12 @@ echo "============================================"
 echo
 echo "Usage:"
 echo "  python3 main.py --target 127.0.0.1 --mode pentest"
-echo "  godseye --target TARGET --mode redteam --stealth --subdomains --screenshot"
+echo "  godseye TARGET --mode redteam --stealth --subdomains --screenshot"
 echo
 
 # ── Final verification ─────────────────────────────────────────────────────────
 if command -v godseye &> /dev/null; then
-    echo "SUCCESS: godseye --target <IP> is ready!"
+    echo "SUCCESS: godseye <IP> or target.com is ready!"
 else
     echo "Run this then restart terminal: export PATH=\$HOME/.local/bin:\$PATH"
 fi
