@@ -1,7 +1,7 @@
 <div align="center">
 
 ![GOD'S EYE](GOD'SEYE.png)
-# GOD'S EYE v2.0.0
+# GOD'S EYE v2.0
 
 **AI-powered web security scanner & fingerprinting tool**
 
